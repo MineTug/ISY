@@ -1,0 +1,92 @@
+/*Principal*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Topbar*/
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-link {
+    width: 290px;
+    height: 41.14px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-icon {
+    display: flex;
+    margin-right: 0px;
+    margin-left: auto;
+    width: 350px;
+    height: 41px;
+}
+
+.mail, .phone, .facebook, .twitter, .discord, .youtube {
+    width: 40px;
+    height: 41.14px;
+    margin: 5px;
+    padding: 0px;
+}
+
+.youtube {
+    margin-right: 90px;
+}
+
+header {
+    position: absolute;
+    background: white;
+    padding: 30px;
+    width: 100%;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .05);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+header nav a {
+    font-family: /*'Old Stamper Regular', 'Quantum', */'Lato';
+    color: black;
+    opacity: 50%;
+    padding: 50px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    opacity: 100%;
+    transition: all 1s;
+}
+
+
+
+/*Divers*/
+p {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.artistsBackground, .animation, .logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/*ACDC*/
+.logo {
+    display: flex;
+    justify-content: start;
+    clip-path: circle(50%);
+}
